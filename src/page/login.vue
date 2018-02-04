@@ -21,7 +21,7 @@
                 <a href="javascript:void(0);">换一张</a>
             </FormItem>
             <FormItem>
-                <Button type="primary" long @click="handleSubmit('formInline')">登录</Button>
+                <Button type="success" long @click="handleSubmit('formInline')">登录</Button>
             </FormItem>
         </Form>
     </div>
