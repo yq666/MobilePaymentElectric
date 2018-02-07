@@ -1,22 +1,25 @@
 <template>
-  <div id="app">
+  <div id="app" class="fillcontain">
     <router-view/>
   </div>
 </template>
-
 <script>
 export default {
   name: 'App'
 }
 </script>
-
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Microsoft YaHei",Arial, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  padding: 0 15px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body, html, .fillcontain{
+  width: 100%;
+  height: 100%;
 }
 </style>

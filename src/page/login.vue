@@ -2,7 +2,7 @@
     <div class="login-bg">
         <div class="login_top">
             <img src="../assets/images/logo.png">
-            <p>学生自助购电系统</p>
+            <p>掌上购电系统</p>
         </div>
         <Form class="login" ref="formInline" :model="formInline" :rules="ruleInline">
             <FormItem prop="user">
@@ -62,17 +62,20 @@
     }
 </script>
 <style>
+    .login-bg{
+        padding: 0 15px;
+    }
     .login_top{
-    width: 100%;
-    left: 0;
-    padding: 20px;
-  }
-  .login_top img{
-    width: 80px;
-    height: 80px;
-  }
-  .login_top p {
-    font-size: 26px;
-  }
+        width: 100%;
+        left: 0;
+        padding: 20px;
+    }
+    .login_top img{
+        width: 80px;
+        height: 80px;
+    }
+    .login_top p {
+        font-size: 26px;
+    }
 </style>
 
