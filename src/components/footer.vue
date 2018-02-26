@@ -7,7 +7,7 @@
     <div class="layout-footer">
     <Menu mode="horizontal" active-name="home" @on-select="onSelect">
         <MenuItem name="home">
-            <Icon type="android-home" size=20px></Icon>
+            <Icon type="android-home"></Icon>
             首页
         </MenuItem>
         <MenuItem name="service">
@@ -50,13 +50,13 @@ export default {
   }
   .layout-contain{
     position: relative;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     height: 100%;
   }
   .layout-footer{
     position: fixed;
     bottom: 0;
-    height: 60px;
+    height: 50px;
     width: 100%;
   }
     .layout-box{
@@ -65,6 +65,9 @@ export default {
         padding: 0 15px;
         width: 100%;
         background-color: #f5f7f9;
+    }
+    .ivu-menu-light{
+        background: #f7f7f7;
     }
     .ivu-menu-horizontal{
         padding: 5px;
@@ -78,8 +81,8 @@ export default {
     }
     .ivu-icon{
         display: block;
-        font-size: 28px;
-        margin-bottom: -18px;
+        font-size: 24px;
+        margin-bottom: -20px;
     }
     .ivu-menu-horizontal .ivu-menu-item{
         width: 25%;

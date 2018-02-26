@@ -1,6 +1,6 @@
 <template>
     <div class="layout-header">
-        <p>掌上购电</p>
+        <p>标题</p>
     </div>
 </template>
 <script>
