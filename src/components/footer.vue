@@ -43,7 +43,7 @@ export default {
 </script>
 <style>
   .layout{
-    background: #f5f7f9;
+    background: #f7f7f7;
     position: relative;
     height: 100%;    
     width: 100%;
@@ -62,9 +62,9 @@ export default {
     .layout-box{
         position: absolute;
         top: 45px;
-        padding: 0 15px;
+        padding: 0 10px;
         width: 100%;
-        background-color: #f5f7f9;
+        padding-bottom: 65px;
     }
     .ivu-menu-light{
         background: #f7f7f7;

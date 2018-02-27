@@ -1,6 +1,6 @@
 <template>
     <div class="layout-header">
-        <p>标题</p>
+        <p>掌电</p>
     </div>
 </template>
 <script>
@@ -15,7 +15,7 @@ export default {
     line-height: 45px;
     background-color: #1BBC9B;
     text-align: center;
-    padding: 0 15px;
+    padding: 0 10px;
     position: fixed;
     top: 0;
     z-index: 9999;

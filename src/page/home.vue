@@ -217,6 +217,7 @@
 .news-right img {
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }
 .get-more{
     height: 20px;
